@@ -8,9 +8,9 @@
     "build": "npm run dl-dev &  npm run dl-prod &  npm run dl-dev-exp &  npm run dl-prod-exp &  wait && echo '✅' || echo '❌' ",
     "dl-dev": "curl -L -o react-dom.js https://unpkg.com/react-dom@16/umd/react-dom.development.js",
     "dl-prod": "curl -L -o react-dom.min.js https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
-    "dl-dev-exp": "curl -L -o experimental/react-dom.js https://unpkg.com/react-dom@experimental/umd/react.development.js",
-    "dl-prod-exp": "curl -L -o experimental/react-dom.min.js https://unpkg.com/react-dom@experimental/umd/react.production.min.js"
+    "dl-dev-exp": "curl -L -o experimental/react-dom.js https://unpkg.com/react-dom@experimental/umd/react-dom.development.js",
+    "dl-prod-exp": "curl -L -o experimental/react-dom.min.js https://unpkg.com/react-dom@experimental/umd/react-dom.production.min.js"
   },
   "author": "d4tocchini",
-  "license": "ISC"  
+  "license": "ISC"
 }
