@@ -1,0 +1,1 @@
+module.exports = require(process.env.NODE_ENV === "production" ? "./react-dom.min.js" : "./react-dom.js");

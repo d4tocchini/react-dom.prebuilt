@@ -1,0 +1,3 @@
+# react-dom.prebuilt
+
+Towards a sustainable exile from js build hell...
